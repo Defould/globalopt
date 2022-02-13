@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        width: 96px;
+        img {
+            width: 100%;
+        }
+    }
+    &__menu {
+        display: flex;
+        width: 600px;
+        justify-content: space-between;
+        list-style-type: none;
+        text-decoration: none;
+        margin-bottom: 0;
+        &-link {
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 400;
+            &:hover {
+                color: $main-color;
+                transition: 0.3s;
+            }
+        }
+    }
+    &__call {
+        &-text {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: right;
+        }
+        &-phone {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: right;
+            &:hover {
+                color: #fff;
+            }
+        }
+        &-btn {
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}

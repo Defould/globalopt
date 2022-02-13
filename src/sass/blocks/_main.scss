@@ -1,0 +1,83 @@
+.main {
+    width: 100%;
+    min-height: 680px;
+    padding: 23px 0 82px 0;
+    background: url('../../img/main/main_bg.jpg') no-repeat 50% / cover;
+    &__header {
+        margin-top: 15px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    &__subheader {
+        margin-top: 26px;
+        margin-bottom: 0;
+        color: $main-color;
+        font-family: "Roboto Condensed";
+        font-size: 72px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__text {
+        color: #ffffff;
+        font-family: "Roboto Condensed";
+        font-size: 42px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__divider{
+        display: flex;
+        width: 809px;
+        height: 10px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 38px auto 0 auto;
+        &-line {
+            width: 390px;
+            height: 1px;
+            background-color: #fff;
+        }
+        &-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: #fff;
+        }
+    }
+    &__wrapper {
+        display: grid;
+        grid-template: minmax(135px, auto) / repeat(4, 260px);
+        margin-top: 30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    &__item {
+        &-icon {
+            width: 67px;
+            height: 63px;
+            display: block;
+            margin: 0 auto;
+            object-fit: scale-down;
+        }
+        &-descr {
+            margin-top: 20px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+    &__btn {
+        display: block;
+        width: 230px;
+        height: 57px;
+        margin: 40px auto 0 auto;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17px;
+    }
+}

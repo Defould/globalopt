@@ -1,0 +1,39 @@
+.scheme {
+    min-height: 455px;
+    padding: 50px 0 45px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-self: space-between;        
+        margin-top: 30px;
+        &-bottom {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 25px;
+        }
+    }
+    &__item {
+        width: 250px;
+        min-height: 150px;
+        &-icon {
+            display: block;
+            margin: 0 auto;
+            width: 60px;
+            height: 60px;
+            object-fit: scale-down;
+        }
+        &-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: $main-color;
+            text-align: center;
+            margin-top: 15px;
+        }
+        &-descr {
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+        }
+    }
+}

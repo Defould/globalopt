@@ -1,0 +1,85 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+@import 'base/variables';
+@import 'base/mixins';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.divider {
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    margin: 20px auto 17px auto;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+
+.btn {
+    background-color: $main-color;
+    border-radius: 25px;
+    height: 45px;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    &_160 {
+        width: 160px;
+    }
+    &_180 {
+        width: 180px;
+    }
+}
+
+.title {
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    &_white {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.descr {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    &_white {
+        color: #ffffff;
+        line-height: 27px;
+        text-align: center;
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/reasons';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/consultation';
+@import 'blocks/managers';
+@import 'blocks/scheme';
+@import 'blocks/feedback';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';

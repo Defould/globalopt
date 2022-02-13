@@ -1,0 +1,16 @@
+.managers {
+    min-height: 345px;
+    padding: 60px 0 75px 0;
+    background: url(../../img/managers/bg.jpg) center center / cover no-repeat;
+    &__icon {
+        display: block;
+        margin: 0 auto;
+    }
+    &__title {
+        margin-top: 20px;
+    }
+    &__descr {
+        width: 925px;
+        margin: 20px auto 0 auto;
+    }
+}
